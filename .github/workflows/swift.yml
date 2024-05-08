@@ -1,9 +1,9 @@
 name: Install CocoaPods
 
-on: 
+on:
   push:
-  branches:
-    - XR-Movies
+    branches:
+      - XR-Movies
 
 jobs:
   install:

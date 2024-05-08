@@ -1,6 +1,9 @@
 name: Install CocoaPods
 
-on: Prem/Movies
+on: 
+  push:
+  branches:
+    - XR-Movies
 
 jobs:
   install:
